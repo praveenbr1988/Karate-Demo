@@ -6,8 +6,8 @@ public class ExamplesTest {
 
     @Karate.Test
     Karate testAll() {
-        //return Karate.run("users").relativeTo(getClass());
-        return Karate.run("classpath:examples/users/users.feature");
+        return Karate.run("users").relativeTo(getClass());
+        //return Karate.run("classpath:examples/products.users/products.products.feature");
 
     }
 
